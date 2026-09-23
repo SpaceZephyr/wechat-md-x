@@ -1,5 +1,13 @@
 # 隐私实践与权限字段
 
+## 开发者后台：需请求 downloads 的理由（直接粘贴）
+
+用户在公众号文章页主动点击“下载 Markdown”后，扩展使用 chrome.downloads.download 将当前文章转换得到的 .md 文件和配图保存到浏览器下载目录的同一文章文件夹；使用 chrome.downloads.search/show 获取下载路径，并在用户点击“在 Finder 中显示”时打开文件位置。下载仅由用户操作触发。扩展没有开发者服务器，不会向开发者上传文章或下载文件。
+
+## 开发者后台：需请求主机权限的理由（直接粘贴）
+
+扩展在 mp.weixin.qq.com 的公众号文章页读取当前文章的标题、正文、图片和来源，以便用户主动导出 Markdown；当页面无法直接读取图片时，使用 mp.weixin.qq.com、mmbiz.qpic.cn 和 mmbiz.qlogo.cn 的访问权限获取原文图片。扩展在 x.com 和 twitter.com 注入导入入口，以兼容 X Articles 编辑器及其跳转；只有用户选择本地 Markdown 并点击“导入到 X 草稿”后，才读取所选文件并写入其 X 文章草稿。扩展仅为这两项用户可见功能访问上述站点，不向开发者服务器发送文章内容。
+
 ## 单一用途
 
 在用户主动操作时，把当前公众号文章保存为含图片的本地 Markdown，再把用户选定的 Markdown 导入到其 X Articles 草稿。
