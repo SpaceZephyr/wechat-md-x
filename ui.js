@@ -6,26 +6,23 @@
   :host { all: initial; }
   * { box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", sans-serif; }
   .wrap {
-    --bg: #ffffff; --fg: #0f1419; --muted: #536471; --line: #e6e9eb; --soft: #f5f7f8;
-    --accent: #1d9bf0; --accent-fg: #fff; --ok: #00a36c; --err: #e0245e;
+    --bg: #090a0c; --fg: #f4f6f8; --muted: #a2abb4; --line: #343a40; --soft: #171a1e;
+    --accent: #f4f6f8; --accent-fg: #090a0c; --ok: #72e4c1; --err: #ff8c9d;
     position: fixed; right: 20px; bottom: 24px; z-index: 2147483000;
     display: flex; flex-direction: column; align-items: flex-end; gap: 10px;
     color: var(--fg); font-size: 14px; line-height: 1.5;
   }
-  @media (prefers-color-scheme: dark) {
-    .wrap { --bg: #16181c; --fg: #e7e9ea; --muted: #8b98a5; --line: #2f3336; --soft: #202327; }
-  }
   .fab {
     border: 0; border-radius: 999px; padding: 10px 16px; cursor: pointer;
     background: var(--fg); color: var(--bg); font-size: 14px; font-weight: 600;
-    box-shadow: 0 4px 16px rgba(0,0,0,.18);
+    box-shadow: 0 4px 24px rgba(0,0,0,.38), 0 0 0 1px rgba(255,255,255,.16);
   }
   .fab:hover { opacity: .9; }
   .fab[hidden] { display: none; }
   .panel {
     width: 360px; max-height: 70vh; overflow: auto;
     background: var(--bg); border: 1px solid var(--line); border-radius: 14px;
-    box-shadow: 0 10px 40px rgba(0,0,0,.2); padding: 16px;
+    box-shadow: 0 16px 56px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.04); padding: 16px;
   }
   .panel[hidden] { display: none; }
   .head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }

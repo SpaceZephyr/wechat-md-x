@@ -23,7 +23,9 @@
 
 ## 物料位置
 
-- 上传包：`dist/wechat-md-x-2.0.0.zip`
+- 上传包：`dist/wechat-md-x-2.0.0.zip`（只上传这个 ZIP，不要把整个 `wechat-md-x/` 或旧版 `wechat-to-x/` 文件夹压缩上传）
+- ZIP 内 `manifest.json` 位于压缩包根目录，且只出现一次；根目录源码和 `dist/` 不能同时进入上传包。
+- 修改运行文件或图标后，运行 `python3 scripts/package-extension.py` 重新生成上传包。
 - 截图：`store-assets/screenshots/`
 - 推广图：`store-assets/promo/`
 - 商店文案：`store-assets/listing/`

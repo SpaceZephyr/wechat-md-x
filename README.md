@@ -5,9 +5,9 @@
 <p align="center"><em>「先把公众号文章存成 Markdown，再把它带进 X 草稿。」</em></p>
 
 <p align="center">
-  <img alt="Chrome Manifest V3" src="https://img.shields.io/badge/Chrome-Manifest%20V3-356D67">
-  <img alt="Markdown 与图片" src="https://img.shields.io/badge/输出-Markdown%20%2B%20图片-356D67">
-  <img alt="MIT License" src="https://img.shields.io/badge/License-MIT-356D67">
+  <img alt="Chrome Manifest V3" src="https://img.shields.io/badge/Chrome-Manifest%20V3-111417">
+  <img alt="Markdown 与图片" src="https://img.shields.io/badge/输出-Markdown%20%2B%20图片-111417">
+  <img alt="MIT License" src="https://img.shields.io/badge/License-MIT-111417">
 </p>
 
 <p align="center">MIT License · Chrome 桌面版 · <a href="mailto:wzfh520@gmail.com">联系支持</a></p>
@@ -20,7 +20,7 @@
 
 商店链接在正式上架后补充。现在可以本地安装：
 
-1. 下载本仓库，或解压发布包。
+1. 下载本仓库，或解压发布包。若要自己生成上传包，运行 `python3 scripts/package-extension.py`，只上传生成的 `dist/wechat-md-x-2.0.0.zip`。
 2. 在 Chrome 打开 `chrome://extensions/`，开启「开发者模式」。
 3. 点击「加载已解压的扩展程序」，选择包含 `manifest.json` 的文件夹。
 4. 刷新已打开的公众号和 X 页面。

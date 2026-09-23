@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="两张文章纸页交接的抽象标志">
-  <title>公众号 Markdown → X 文章 — 纸页接力</title>
-  <rect x="16" y="16" width="96" height="96" rx="22" fill="#142638"/>
-  <rect x="31" y="33" width="41" height="54" rx="6" fill="#fff8ed"/>
-  <rect x="56" y="41" width="41" height="55" rx="6" fill="#ef765e"/>
-  <path d="M38 47h21M38 57h15" fill="none" stroke="#142638" stroke-width="5" stroke-linecap="round"/>
-  <path d="M45 65h30v-7l13 15-13 15v-7H45z" fill="#fff8ed"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="黑底白色原创 X 字母标志，带青色端点">
+  <title>公众号 Markdown → X 文章</title>
+  <rect x="8" y="8" width="112" height="112" rx="25" fill="#070809" stroke="#303840" stroke-width="2"/>
+  <path d="M31 34h17l49 60H80zM80 34h17L48 94H31z" fill="#f5f7fa"/>
+  <path d="M97 26l6 6-6 6-6-6z" fill="#75e4ef"/>
 </svg>
