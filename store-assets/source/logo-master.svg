@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="两张文章纸页交接的抽象标志">
+  <title>公众号 Markdown → X 文章 — 纸页接力</title>
+  <rect x="16" y="16" width="96" height="96" rx="22" fill="#142638"/>
+  <rect x="31" y="33" width="41" height="54" rx="6" fill="#fff8ed"/>
+  <rect x="56" y="41" width="41" height="55" rx="6" fill="#ef765e"/>
+  <path d="M38 47h21M38 57h15" fill="none" stroke="#142638" stroke-width="5" stroke-linecap="round"/>
+  <path d="M45 65h30v-7l13 15-13 15v-7H45z" fill="#fff8ed"/>
+</svg>
